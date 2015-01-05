@@ -24,7 +24,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"fornit1917\\yii2-emigrate\\": ""
+			"fornit1917\\yii2emigrate\\": ""
 		}
 	}
 }
