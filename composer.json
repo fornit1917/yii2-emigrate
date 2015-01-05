@@ -1,6 +1,6 @@
 {
-	"name": "yii2-emigrate",
-	"description": "Yii 2 Framework extension for simplification of code generation when creating some migrations",
+	"name": "fornit1917/yii2-emigrate",
+	"description": "Yii2 Framework extension for simplification of code generation when creating some migrations",
 	"keywords": ["yii2", "migrations"],
 	"homepage": "https://github.com/fornit1917/yii2-emigrate",
 	"type": "yii2-extension",
