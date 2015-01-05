@@ -1,0 +1,30 @@
+{
+	"name": "yii2-emigrate",
+	"description": "Yii 2 Framework extension for simplification of code generation when creating some migrations",
+	"keywords": ["yii2", "migrations"],
+	"homepage": "https://github.com/fornit1917/yii2-emigrate",
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Vit S.",
+			"email": "fornit1917@gmail.com",
+			"role": "Creator"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/fornit1917/yii2-emigrate/issues",
+		"source": "https://github.com/fornit1917/yii2-emigrate"
+	},
+	"require": {
+		"php": ">=5.4.0",
+		"lib-pcre": "*"
+	},
+	"require-dev": {
+	},
+	"autoload": {
+		"psr-4": {
+			"fornit1917\\yii2-emigrate\\": ""
+		}
+	}
+}

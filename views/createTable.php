@@ -1,0 +1,1 @@
+$this->createTable('<?= $table ?>', [], '<?=$tableOptions?>');

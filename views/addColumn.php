@@ -1,0 +1,1 @@
+$this->addColumn('<?=$table?>', '<?=$column?>', '<?=$columnType?>');

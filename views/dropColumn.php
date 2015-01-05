@@ -1,0 +1,1 @@
+$this->dropColumn('<?=$table?>', '<?=$column?>');
