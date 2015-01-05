@@ -102,7 +102,9 @@ class ExtendedMigrateController extends MigrateController
             ];
         }
 
-        return [];
+        return [
+            'command' => ''
+        ];
     }
 
     protected function addParamsFromCommandLine(&$params)
