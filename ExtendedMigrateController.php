@@ -64,7 +64,11 @@ class ExtendedMigrateController extends MigrateController
 
         $params = $this->getParamsFromName($name);
         $this->addParamsFromCommandLine($params);
-        //print_r($params);die;
+        if (isset($params['command']) && $this->isSupportedCommand($params['command'])) {
+            $this->stdout("Command detected: {$params['command']}\n", Console::FG_YELLOW);
+        } else {
+            $this->stdout("Command not detected. Generate empty migration\n", Console::FG_YELLOW);
+        }
 
         $name = 'm' . gmdate('ymd_His') . '_' . $name;
         $file = $this->migrationPath . DIRECTORY_SEPARATOR . $name . '.php';
