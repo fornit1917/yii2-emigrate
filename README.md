@@ -26,10 +26,10 @@ Now you can create migration with new yii2-emigrate:
 
 For automatic code generation migration it is necessary to give a special name:
 
-* create_table_table_name - for creation table with name "table_name"
-* drop_table_table_name - for dropping table with name "table_name"
-* add_column_column_name_in_table_name - for adding new column with name "column_name" in table "table_name"
-* drop_column_column_name_in_table_name - for dropping column with name "column_name" in table "table_name"
+* *create_table_table_name* - for creation table with name "table_name"
+* *drop_table_table_name* - for dropping table with name "table_name"
+* *add_column_column_name_in_table_name* - for adding new column with name "column_name" in table "table_name"
+* *drop_column_column_name_in_table_name* - for dropping column with name "column_name" in table "table_name"
 
 #### Create migrations for create table or drop table
 
@@ -137,9 +137,9 @@ The following command line options can be used:
     * add-column
     * drop-column
 * table - name of table in migration
-* tableOptions - options for command create-table (for create-table and drop-table)
-* column - name of column in migration (for add-column and drop-column)
-* columnType - type of column in migration (for add-column and drop-column)
+* tableOptions - options for Migration::createTable (for commands *create-table* and *drop-table*)
+* column - name of column in migration (for commands *add-column* and *drop-column*)
+* columnType - type of column in migration (for commands *add-column* and *drop-column*)
 
 With these options, you can generate the migration  not respecting the naming conventions. For example:
 
